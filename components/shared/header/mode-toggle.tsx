@@ -31,7 +31,7 @@ const ModeToggle = () => {
                     </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
-                    <DropdownMenuLabel>Apperance</DropdownMenuLabel>
+                    <DropdownMenuLabel>Appearance</DropdownMenuLabel>
                     <DropdownMenuSeparator/>
                     <DropdownMenuCheckboxItem checked={theme === 'system'} onClick={ () => setTheme ('system')}>
                         System
