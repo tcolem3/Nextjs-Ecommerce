@@ -12,6 +12,6 @@ const ProductPrice = ({ value, className } : {value: number; className?: string;
             <span className="text-xs align-super">.{floatValue}</span>
         </p> 
     );
-}
+};
  
 export default ProductPrice;

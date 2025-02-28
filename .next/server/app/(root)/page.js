@@ -78,6 +78,94 @@ module.exports = require("next/dist/server/app-render/work-unit-async-storage.ex
 
 /***/ }),
 
+/***/ "buffer":
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -86,6 +174,28 @@ module.exports = require("next/dist/server/app-render/work-unit-async-storage.ex
 
 "use strict";
 module.exports = require("path");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
 
 /***/ }),
 
@@ -100,6 +210,27 @@ module.exports = require("url");
 
 /***/ }),
 
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ }),
+
+/***/ "?66e9":
+/*!********************************!*\
+  !*** utf-8-validate (ignored) ***!
+  \********************************/
+/***/ (() => {
+
+/* (ignored) */
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F(root)%2Fpage&page=%2F(root)%2Fpage&appPaths=%2F(root)%2Fpage&pagePath=private-next-app-dir%2F(root)%2Fpage.tsx&appDir=C%3A%5CUsers%5Ccolep%5CDesktop%5Cgit%5CNextjs-Ecommerce%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5Ccolep%5CDesktop%5Cgit%5CNextjs-Ecommerce&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F(root)%2Fpage&page=%2F(root)%2Fpage&appPaths=%2F(root)%2Fpage&pagePath=private-next-app-dir%2F(root)%2Fpage.tsx&appDir=C%3A%5CUsers%5Ccolep%5CDesktop%5Cgit%5CNextjs-Ecommerce%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5Ccolep%5CDesktop%5Cgit%5CNextjs-Ecommerce&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
@@ -111,14 +242,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200b5593d03cd4ee7270d8a366adf685013a5f6d2e2%22%2C%22getLatestProducts%22%5D%5D%5D%5D&__client_imported__=!":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200b5593d03cd4ee7270d8a366adf685013a5f6d2e2%22%2C%22getLatestProducts%22%5D%5D%5D%5D&__client_imported__=! ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200fdb00f233eb88423aeb38e7c1fc90dc627b02a8e%22%2C%22getLatestProducts%22%5D%2C%5B%2240d6663bac2ceea4b1c8ccebf66dcb6a99ff118661%22%2C%22getProductBySlug%22%5D%5D%5D%5D&__client_imported__=!":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200fdb00f233eb88423aeb38e7c1fc90dc627b02a8e%22%2C%22getLatestProducts%22%5D%2C%5B%2240d6663bac2ceea4b1c8ccebf66dcb6a99ff118661%22%2C%22getProductBySlug%22%5D%5D%5D%5D&__client_imported__=! ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"00b5593d03cd4ee7270d8a366adf685013a5f6d2e2\": () => (/* reexport safe */ C_Users_colep_Desktop_git_Nextjs_Ecommerce_lib_actions_product_actions_ts__WEBPACK_IMPORTED_MODULE_0__.getLatestProducts)\n/* harmony export */ });\n/* harmony import */ var C_Users_colep_Desktop_git_Nextjs_Ecommerce_lib_actions_product_actions_ts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/actions/product.actions.ts */ \"(rsc)/./lib/actions/product.actions.ts\");\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1hY3Rpb24tZW50cnktbG9hZGVyLmpzP2FjdGlvbnM9JTVCJTVCJTIyQyUzQSU1QyU1Q1VzZXJzJTVDJTVDY29sZXAlNUMlNUNEZXNrdG9wJTVDJTVDZ2l0JTVDJTVDTmV4dGpzLUVjb21tZXJjZSU1QyU1Q2xpYiU1QyU1Q2FjdGlvbnMlNUMlNUNwcm9kdWN0LmFjdGlvbnMudHMlMjIlMkMlNUIlNUIlMjIwMGI1NTkzZDAzY2Q0ZWU3MjcwZDhhMzY2YWRmNjg1MDEzYTVmNmQyZTIlMjIlMkMlMjJnZXRMYXRlc3RQcm9kdWN0cyUyMiU1RCU1RCU1RCU1RCZfX2NsaWVudF9pbXBvcnRlZF9fPSEiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQ3NLIiwic291cmNlcyI6WyIiXSwic291cmNlc0NvbnRlbnQiOlsiXG5leHBvcnQgeyBnZXRMYXRlc3RQcm9kdWN0cyBhcyBcIjAwYjU1OTNkMDNjZDRlZTcyNzBkOGEzNjZhZGY2ODUwMTNhNWY2ZDJlMlwiIH0gZnJvbSBcIkM6XFxcXFVzZXJzXFxcXGNvbGVwXFxcXERlc2t0b3BcXFxcZ2l0XFxcXE5leHRqcy1FY29tbWVyY2VcXFxcbGliXFxcXGFjdGlvbnNcXFxccHJvZHVjdC5hY3Rpb25zLnRzXCJcbiJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200b5593d03cd4ee7270d8a366adf685013a5f6d2e2%22%2C%22getLatestProducts%22%5D%5D%5D%5D&__client_imported__=!\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"00fdb00f233eb88423aeb38e7c1fc90dc627b02a8e\": () => (/* reexport safe */ C_Users_colep_Desktop_git_Nextjs_Ecommerce_lib_actions_product_actions_ts__WEBPACK_IMPORTED_MODULE_0__.getLatestProducts),\n/* harmony export */   \"40d6663bac2ceea4b1c8ccebf66dcb6a99ff118661\": () => (/* reexport safe */ C_Users_colep_Desktop_git_Nextjs_Ecommerce_lib_actions_product_actions_ts__WEBPACK_IMPORTED_MODULE_0__.getProductBySlug)\n/* harmony export */ });\n/* harmony import */ var C_Users_colep_Desktop_git_Nextjs_Ecommerce_lib_actions_product_actions_ts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/actions/product.actions.ts */ \"(rsc)/./lib/actions/product.actions.ts\");\n\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1hY3Rpb24tZW50cnktbG9hZGVyLmpzP2FjdGlvbnM9JTVCJTVCJTIyQyUzQSU1QyU1Q1VzZXJzJTVDJTVDY29sZXAlNUMlNUNEZXNrdG9wJTVDJTVDZ2l0JTVDJTVDTmV4dGpzLUVjb21tZXJjZSU1QyU1Q2xpYiU1QyU1Q2FjdGlvbnMlNUMlNUNwcm9kdWN0LmFjdGlvbnMudHMlMjIlMkMlNUIlNUIlMjIwMGZkYjAwZjIzM2ViODg0MjNhZWIzOGU3YzFmYzkwZGM2MjdiMDJhOGUlMjIlMkMlMjJnZXRMYXRlc3RQcm9kdWN0cyUyMiU1RCUyQyU1QiUyMjQwZDY2NjNiYWMyY2VlYTRiMWM4Y2NlYmY2NmRjYjZhOTlmZjExODY2MSUyMiUyQyUyMmdldFByb2R1Y3RCeVNsdWclMjIlNUQlNUQlNUQlNUQmX19jbGllbnRfaW1wb3J0ZWRfXz0hIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFDc0s7QUFDRCIsInNvdXJjZXMiOlsiIl0sInNvdXJjZXNDb250ZW50IjpbIlxuZXhwb3J0IHsgZ2V0TGF0ZXN0UHJvZHVjdHMgYXMgXCIwMGZkYjAwZjIzM2ViODg0MjNhZWIzOGU3YzFmYzkwZGM2MjdiMDJhOGVcIiB9IGZyb20gXCJDOlxcXFxVc2Vyc1xcXFxjb2xlcFxcXFxEZXNrdG9wXFxcXGdpdFxcXFxOZXh0anMtRWNvbW1lcmNlXFxcXGxpYlxcXFxhY3Rpb25zXFxcXHByb2R1Y3QuYWN0aW9ucy50c1wiXG5leHBvcnQgeyBnZXRQcm9kdWN0QnlTbHVnIGFzIFwiNDBkNjY2M2JhYzJjZWVhNGIxYzhjY2ViZjY2ZGNiNmE5OWZmMTE4NjYxXCIgfSBmcm9tIFwiQzpcXFxcVXNlcnNcXFxcY29sZXBcXFxcRGVza3RvcFxcXFxnaXRcXFxcTmV4dGpzLUVjb21tZXJjZVxcXFxsaWJcXFxcYWN0aW9uc1xcXFxwcm9kdWN0LmFjdGlvbnMudHNcIlxuIl0sIm5hbWVzIjpbXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200fdb00f233eb88423aeb38e7c1fc90dc627b02a8e%22%2C%22getLatestProducts%22%5D%2C%5B%2240d6663bac2ceea4b1c8ccebf66dcb6a99ff118661%22%2C%22getProductBySlug%22%5D%5D%5D%5D&__client_imported__=!\n");
 
 /***/ }),
 
@@ -482,7 +613,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/lib/utils */ \"(rsc)/./lib/utils.ts\");\n\n\nconst ProductPrice = ({ value, className })=>{\n    const stringValue = value.toFixed(2);\n    const [intValue, floatValue] = stringValue.split('.');\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_1__.cn)('text-2xl, className'),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                className: \"text-xs align-super\",\n                children: \"$\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\colep\\\\Desktop\\\\git\\\\Nextjs-Ecommerce\\\\components\\\\shared\\\\product\\\\product-price.tsx\",\n                lineNumber: 10,\n                columnNumber: 13\n            }, undefined),\n            intValue,\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                className: \"text-xs align-super\",\n                children: [\n                    \".\",\n                    floatValue\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\colep\\\\Desktop\\\\git\\\\Nextjs-Ecommerce\\\\components\\\\shared\\\\product\\\\product-price.tsx\",\n                lineNumber: 12,\n                columnNumber: 13\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\colep\\\\Desktop\\\\git\\\\Nextjs-Ecommerce\\\\components\\\\shared\\\\product\\\\product-price.tsx\",\n        lineNumber: 9,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProductPrice);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9jb21wb25lbnRzL3NoYXJlZC9wcm9kdWN0L3Byb2R1Y3QtcHJpY2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQWlDO0FBRWpDLE1BQU1DLGVBQWUsQ0FBQyxFQUFFQyxLQUFLLEVBQUVDLFNBQVMsRUFBeUM7SUFDN0UsTUFBTUMsY0FBY0YsTUFBTUcsT0FBTyxDQUFDO0lBRWxDLE1BQU0sQ0FBQ0MsVUFBVUMsV0FBVyxHQUFHSCxZQUFZSSxLQUFLLENBQUM7SUFFakQscUJBQ0ksOERBQUNDO1FBQUVOLFdBQWFILDhDQUFFQSxDQUFDOzswQkFDZiw4REFBQ1U7Z0JBQUtQLFdBQVU7MEJBQXNCOzs7Ozs7WUFDckNHOzBCQUNELDhEQUFDSTtnQkFBS1AsV0FBVTs7b0JBQXNCO29CQUFFSTs7Ozs7Ozs7Ozs7OztBQUdwRDtBQUVBLGlFQUFlTixZQUFZQSxFQUFDIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXGNvbGVwXFxEZXNrdG9wXFxnaXRcXE5leHRqcy1FY29tbWVyY2VcXGNvbXBvbmVudHNcXHNoYXJlZFxccHJvZHVjdFxccHJvZHVjdC1wcmljZS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY24gfSBmcm9tIFwiQC9saWIvdXRpbHNcIjtcclxuXHJcbmNvbnN0IFByb2R1Y3RQcmljZSA9ICh7IHZhbHVlLCBjbGFzc05hbWUgfSA6IHt2YWx1ZTogbnVtYmVyOyBjbGFzc05hbWU/OiBzdHJpbmc7fSApID0+IHtcclxuICAgIGNvbnN0IHN0cmluZ1ZhbHVlID0gdmFsdWUudG9GaXhlZCgyKTtcclxuXHJcbiAgICBjb25zdCBbaW50VmFsdWUsIGZsb2F0VmFsdWVdID0gc3RyaW5nVmFsdWUuc3BsaXQoJy4nKVxyXG4gICAgXHJcbiAgICByZXR1cm4gKCBcclxuICAgICAgICA8cCBjbGFzc05hbWUgPSB7Y24oJ3RleHQtMnhsLCBjbGFzc05hbWUnKX0+XHJcbiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRleHQteHMgYWxpZ24tc3VwZXJcIj4kPC9zcGFuPlxyXG4gICAgICAgICAgICB7aW50VmFsdWV9XHJcbiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRleHQteHMgYWxpZ24tc3VwZXJcIj4ue2Zsb2F0VmFsdWV9PC9zcGFuPlxyXG4gICAgICAgIDwvcD4gXHJcbiAgICApO1xyXG59XHJcbiBcclxuZXhwb3J0IGRlZmF1bHQgUHJvZHVjdFByaWNlOyJdLCJuYW1lcyI6WyJjbiIsIlByb2R1Y3RQcmljZSIsInZhbHVlIiwiY2xhc3NOYW1lIiwic3RyaW5nVmFsdWUiLCJ0b0ZpeGVkIiwiaW50VmFsdWUiLCJmbG9hdFZhbHVlIiwic3BsaXQiLCJwIiwic3BhbiJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./components/shared/product/product-price.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/lib/utils */ \"(rsc)/./lib/utils.ts\");\n\n\nconst ProductPrice = ({ value, className })=>{\n    const stringValue = value.toFixed(2);\n    const [intValue, floatValue] = stringValue.split('.');\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_1__.cn)('text-2xl, className'),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                className: \"text-xs align-super\",\n                children: \"$\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\colep\\\\Desktop\\\\git\\\\Nextjs-Ecommerce\\\\components\\\\shared\\\\product\\\\product-price.tsx\",\n                lineNumber: 10,\n                columnNumber: 13\n            }, undefined),\n            intValue,\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                className: \"text-xs align-super\",\n                children: [\n                    \".\",\n                    floatValue\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\colep\\\\Desktop\\\\git\\\\Nextjs-Ecommerce\\\\components\\\\shared\\\\product\\\\product-price.tsx\",\n                lineNumber: 12,\n                columnNumber: 13\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\colep\\\\Desktop\\\\git\\\\Nextjs-Ecommerce\\\\components\\\\shared\\\\product\\\\product-price.tsx\",\n        lineNumber: 9,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProductPrice);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9jb21wb25lbnRzL3NoYXJlZC9wcm9kdWN0L3Byb2R1Y3QtcHJpY2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQWlDO0FBRWpDLE1BQU1DLGVBQWUsQ0FBQyxFQUFFQyxLQUFLLEVBQUVDLFNBQVMsRUFBeUM7SUFDN0UsTUFBTUMsY0FBY0YsTUFBTUcsT0FBTyxDQUFDO0lBRWxDLE1BQU0sQ0FBQ0MsVUFBVUMsV0FBVyxHQUFHSCxZQUFZSSxLQUFLLENBQUM7SUFFakQscUJBQ0ksOERBQUNDO1FBQUVOLFdBQWFILDhDQUFFQSxDQUFDOzswQkFDZiw4REFBQ1U7Z0JBQUtQLFdBQVU7MEJBQXNCOzs7Ozs7WUFDckNHOzBCQUNELDhEQUFDSTtnQkFBS1AsV0FBVTs7b0JBQXNCO29CQUFFSTs7Ozs7Ozs7Ozs7OztBQUdwRDtBQUVBLGlFQUFlTixZQUFZQSxFQUFDIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXGNvbGVwXFxEZXNrdG9wXFxnaXRcXE5leHRqcy1FY29tbWVyY2VcXGNvbXBvbmVudHNcXHNoYXJlZFxccHJvZHVjdFxccHJvZHVjdC1wcmljZS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY24gfSBmcm9tIFwiQC9saWIvdXRpbHNcIjtcclxuXHJcbmNvbnN0IFByb2R1Y3RQcmljZSA9ICh7IHZhbHVlLCBjbGFzc05hbWUgfSA6IHt2YWx1ZTogbnVtYmVyOyBjbGFzc05hbWU/OiBzdHJpbmc7fSApID0+IHtcclxuICAgIGNvbnN0IHN0cmluZ1ZhbHVlID0gdmFsdWUudG9GaXhlZCgyKTtcclxuXHJcbiAgICBjb25zdCBbaW50VmFsdWUsIGZsb2F0VmFsdWVdID0gc3RyaW5nVmFsdWUuc3BsaXQoJy4nKVxyXG4gICAgXHJcbiAgICByZXR1cm4gKCBcclxuICAgICAgICA8cCBjbGFzc05hbWUgPSB7Y24oJ3RleHQtMnhsLCBjbGFzc05hbWUnKX0+XHJcbiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRleHQteHMgYWxpZ24tc3VwZXJcIj4kPC9zcGFuPlxyXG4gICAgICAgICAgICB7aW50VmFsdWV9XHJcbiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRleHQteHMgYWxpZ24tc3VwZXJcIj4ue2Zsb2F0VmFsdWV9PC9zcGFuPlxyXG4gICAgICAgIDwvcD4gXHJcbiAgICApO1xyXG59O1xyXG4gXHJcbmV4cG9ydCBkZWZhdWx0IFByb2R1Y3RQcmljZTsiXSwibmFtZXMiOlsiY24iLCJQcm9kdWN0UHJpY2UiLCJ2YWx1ZSIsImNsYXNzTmFtZSIsInN0cmluZ1ZhbHVlIiwidG9GaXhlZCIsImludFZhbHVlIiwiZmxvYXRWYWx1ZSIsInNwbGl0IiwicCIsInNwYW4iXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./components/shared/product/product-price.tsx\n");
 
 /***/ }),
 
@@ -575,6 +706,17 @@ function() { throw new Error("Attempted to call SheetDescription() from the serv
 
 /***/ }),
 
+/***/ "(rsc)/./db/prisma.ts":
+/*!**********************!*\
+  !*** ./db/prisma.ts ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   prisma: () => (/* binding */ prisma)\n/* harmony export */ });\n/* harmony import */ var _neondatabase_serverless__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @neondatabase/serverless */ \"(rsc)/./node_modules/@neondatabase/serverless/index.mjs\");\n/* harmony import */ var _prisma_adapter_neon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @prisma/adapter-neon */ \"(rsc)/./node_modules/@prisma/adapter-neon/dist/index.mjs\");\n/* harmony import */ var _prisma_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @prisma/client */ \"@prisma/client\");\n/* harmony import */ var _prisma_client__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_prisma_client__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var ws__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ws */ \"(rsc)/./node_modules/ws/wrapper.mjs\");\n\n\n\n\n// Sets up WebSocket connections, which enables Neon to use WebSocket communication.\n_neondatabase_serverless__WEBPACK_IMPORTED_MODULE_0__.neonConfig.webSocketConstructor = ws__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\nconst connectionString = `${process.env.DATABASE_URL}`;\n// Creates a new connection pool using the provided connection string, allowing multiple concurrent connections.\nconst pool = new _neondatabase_serverless__WEBPACK_IMPORTED_MODULE_0__.Pool({\n    connectionString\n});\n// Instantiates the Prisma adapter using the Neon connection pool to handle the connection between Prisma and Neon.\nconst adapter = new _prisma_adapter_neon__WEBPACK_IMPORTED_MODULE_3__.PrismaNeon(pool);\n// Extends the PrismaClient with a custom result transformer to convert the price and rating fields to strings.\nconst prisma = new _prisma_client__WEBPACK_IMPORTED_MODULE_1__.PrismaClient({\n    adapter\n}).$extends({\n    result: {\n        product: {\n            price: {\n                compute (product) {\n                    return product.price.toString();\n                }\n            },\n            rating: {\n                compute (product) {\n                    return product.rating.toString();\n                }\n            }\n        }\n    }\n});\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9kYi9wcmlzbWEudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQTREO0FBQ1Y7QUFDSjtBQUMxQjtBQUVwQixvRkFBb0Y7QUFDcEZDLGdFQUFVQSxDQUFDSSxvQkFBb0IsR0FBR0QsMENBQUVBO0FBQ3BDLE1BQU1FLG1CQUFtQixHQUFHQyxRQUFRQyxHQUFHLENBQUNDLFlBQVksRUFBRTtBQUV0RCxnSEFBZ0g7QUFDaEgsTUFBTUMsT0FBTyxJQUFJViwwREFBSUEsQ0FBQztJQUFFTTtBQUFpQjtBQUV6QyxtSEFBbUg7QUFDbkgsTUFBTUssVUFBVSxJQUFJVCw0REFBVUEsQ0FBQ1E7QUFFL0IsK0dBQStHO0FBQ3hHLE1BQU1FLFNBQVMsSUFBSVQsd0RBQVlBLENBQUM7SUFBRVE7QUFBUSxHQUFHRSxRQUFRLENBQUM7SUFDM0RDLFFBQVE7UUFDTkMsU0FBUztZQUNQQyxPQUFPO2dCQUNMQyxTQUFRRixPQUFPO29CQUNiLE9BQU9BLFFBQVFDLEtBQUssQ0FBQ0UsUUFBUTtnQkFDL0I7WUFDRjtZQUNBQyxRQUFRO2dCQUNORixTQUFRRixPQUFPO29CQUNiLE9BQU9BLFFBQVFJLE1BQU0sQ0FBQ0QsUUFBUTtnQkFDaEM7WUFDRjtRQUNGO0lBQ0Y7QUFDRixHQUFHIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXGNvbGVwXFxEZXNrdG9wXFxnaXRcXE5leHRqcy1FY29tbWVyY2VcXGRiXFxwcmlzbWEudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUG9vbCwgbmVvbkNvbmZpZyB9IGZyb20gJ0BuZW9uZGF0YWJhc2Uvc2VydmVybGVzcyc7XG5pbXBvcnQgeyBQcmlzbWFOZW9uIH0gZnJvbSAnQHByaXNtYS9hZGFwdGVyLW5lb24nO1xuaW1wb3J0IHsgUHJpc21hQ2xpZW50IH0gZnJvbSAnQHByaXNtYS9jbGllbnQnO1xuaW1wb3J0IHdzIGZyb20gJ3dzJztcblxuLy8gU2V0cyB1cCBXZWJTb2NrZXQgY29ubmVjdGlvbnMsIHdoaWNoIGVuYWJsZXMgTmVvbiB0byB1c2UgV2ViU29ja2V0IGNvbW11bmljYXRpb24uXG5uZW9uQ29uZmlnLndlYlNvY2tldENvbnN0cnVjdG9yID0gd3M7XG5jb25zdCBjb25uZWN0aW9uU3RyaW5nID0gYCR7cHJvY2Vzcy5lbnYuREFUQUJBU0VfVVJMfWA7XG5cbi8vIENyZWF0ZXMgYSBuZXcgY29ubmVjdGlvbiBwb29sIHVzaW5nIHRoZSBwcm92aWRlZCBjb25uZWN0aW9uIHN0cmluZywgYWxsb3dpbmcgbXVsdGlwbGUgY29uY3VycmVudCBjb25uZWN0aW9ucy5cbmNvbnN0IHBvb2wgPSBuZXcgUG9vbCh7IGNvbm5lY3Rpb25TdHJpbmcgfSk7XG5cbi8vIEluc3RhbnRpYXRlcyB0aGUgUHJpc21hIGFkYXB0ZXIgdXNpbmcgdGhlIE5lb24gY29ubmVjdGlvbiBwb29sIHRvIGhhbmRsZSB0aGUgY29ubmVjdGlvbiBiZXR3ZWVuIFByaXNtYSBhbmQgTmVvbi5cbmNvbnN0IGFkYXB0ZXIgPSBuZXcgUHJpc21hTmVvbihwb29sKTtcblxuLy8gRXh0ZW5kcyB0aGUgUHJpc21hQ2xpZW50IHdpdGggYSBjdXN0b20gcmVzdWx0IHRyYW5zZm9ybWVyIHRvIGNvbnZlcnQgdGhlIHByaWNlIGFuZCByYXRpbmcgZmllbGRzIHRvIHN0cmluZ3MuXG5leHBvcnQgY29uc3QgcHJpc21hID0gbmV3IFByaXNtYUNsaWVudCh7IGFkYXB0ZXIgfSkuJGV4dGVuZHMoe1xuICByZXN1bHQ6IHtcbiAgICBwcm9kdWN0OiB7XG4gICAgICBwcmljZToge1xuICAgICAgICBjb21wdXRlKHByb2R1Y3QpIHtcbiAgICAgICAgICByZXR1cm4gcHJvZHVjdC5wcmljZS50b1N0cmluZygpO1xuICAgICAgICB9LFxuICAgICAgfSxcbiAgICAgIHJhdGluZzoge1xuICAgICAgICBjb21wdXRlKHByb2R1Y3QpIHtcbiAgICAgICAgICByZXR1cm4gcHJvZHVjdC5yYXRpbmcudG9TdHJpbmcoKTtcbiAgICAgICAgfSxcbiAgICAgIH0sXG4gICAgfSxcbiAgfSxcbn0pO1xuIl0sIm5hbWVzIjpbIlBvb2wiLCJuZW9uQ29uZmlnIiwiUHJpc21hTmVvbiIsIlByaXNtYUNsaWVudCIsIndzIiwid2ViU29ja2V0Q29uc3RydWN0b3IiLCJjb25uZWN0aW9uU3RyaW5nIiwicHJvY2VzcyIsImVudiIsIkRBVEFCQVNFX1VSTCIsInBvb2wiLCJhZGFwdGVyIiwicHJpc21hIiwiJGV4dGVuZHMiLCJyZXN1bHQiLCJwcm9kdWN0IiwicHJpY2UiLCJjb21wdXRlIiwidG9TdHJpbmciLCJyYXRpbmciXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./db/prisma.ts\n");
+
+/***/ }),
+
 /***/ "(rsc)/./lib/actions/product.actions.ts":
 /*!****************************************!*\
   !*** ./lib/actions/product.actions.ts ***!
@@ -582,7 +724,7 @@ function() { throw new Error("Attempted to call SheetDescription() from the serv
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getLatestProducts: () => (/* binding */ getLatestProducts)\n/* harmony export */ });\n/* harmony import */ var private_next_rsc_server_reference__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! private-next-rsc-server-reference */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/server-reference.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! private-next-rsc-action-encryption */ \"(rsc)/./node_modules/next/dist/server/app-render/encryption.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _prisma_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @prisma/client */ \"@prisma/client\");\n/* harmony import */ var _prisma_client__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_prisma_client__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils */ \"(rsc)/./lib/utils.ts\");\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../constants */ \"(rsc)/./lib/constants/index.ts\");\n/* harmony import */ var private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! private-next-rsc-action-validate */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-validate.js\");\n/* __next_internal_action_entry_do_not_use__ {\"00b5593d03cd4ee7270d8a366adf685013a5f6d2e2\":\"getLatestProducts\"} */ \n\n\n\n\n// Get latest products\nasync function /*#__TURBOPACK_DISABLE_EXPORT_MERGING__*/ getLatestProducts() {\n    const prisma = new _prisma_client__WEBPACK_IMPORTED_MODULE_2__.PrismaClient();\n    const data = await prisma.product.findMany({\n        take: _constants__WEBPACK_IMPORTED_MODULE_4__.LATEST_PRODUCTS_LIMIT,\n        orderBy: {\n            createdAt: 'desc'\n        }\n    });\n    return (0,_utils__WEBPACK_IMPORTED_MODULE_3__.convertToPlainObject)(data);\n}\n\n(0,private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_5__.ensureServerEntryExports)([\n    getLatestProducts\n]);\n(0,private_next_rsc_server_reference__WEBPACK_IMPORTED_MODULE_0__.registerServerReference)(getLatestProducts, \"00b5593d03cd4ee7270d8a366adf685013a5f6d2e2\", null);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9saWIvYWN0aW9ucy9wcm9kdWN0LmFjdGlvbnMudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFDOEM7QUFDRTtBQUNLO0FBRXJELHNCQUFzQjtBQUNmLGVBQWVHLHVDQUFlLEdBQWZBO0lBQ2xCLE1BQU1DLFNBQVMsSUFBSUosd0RBQVlBO0lBRS9CLE1BQU1LLE9BQU8sTUFBTUQsT0FBT0UsT0FBTyxDQUFDQyxRQUFRLENBQUM7UUFFdkNDLE1BQU1OLDZEQUFxQkE7UUFDM0JPLFNBQVM7WUFBRUMsV0FBVztRQUFNO0lBQ2hDO0lBRUEsT0FBT1QsNERBQW9CQSxDQUFDSTtBQUNoQzs7O0lBVnNCRjs7QUFBQUEsMEZBQUFBLENBQUFBIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXGNvbGVwXFxEZXNrdG9wXFxnaXRcXE5leHRqcy1FY29tbWVyY2VcXGxpYlxcYWN0aW9uc1xccHJvZHVjdC5hY3Rpb25zLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc2VydmVyJztcclxuaW1wb3J0IHsgUHJpc21hQ2xpZW50IH0gZnJvbSBcIkBwcmlzbWEvY2xpZW50XCI7XHJcbmltcG9ydCB7IGNvbnZlcnRUb1BsYWluT2JqZWN0IH0gZnJvbSBcIi4uL3V0aWxzXCI7XHJcbmltcG9ydCB7IExBVEVTVF9QUk9EVUNUU19MSU1JVCB9IGZyb20gXCIuLi9jb25zdGFudHNcIjtcclxuXHJcbi8vIEdldCBsYXRlc3QgcHJvZHVjdHNcclxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldExhdGVzdFByb2R1Y3RzKCkge1xyXG4gICAgY29uc3QgcHJpc21hID0gbmV3IFByaXNtYUNsaWVudCgpO1xyXG5cclxuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBwcmlzbWEucHJvZHVjdC5maW5kTWFueSh7XHJcblxyXG4gICAgICAgIHRha2U6IExBVEVTVF9QUk9EVUNUU19MSU1JVCxcclxuICAgICAgICBvcmRlckJ5OiB7IGNyZWF0ZWRBdDogJ2Rlc2MnfVxyXG4gICAgfSk7XHJcblxyXG4gICAgcmV0dXJuIGNvbnZlcnRUb1BsYWluT2JqZWN0KGRhdGEpO1xyXG59Il0sIm5hbWVzIjpbIlByaXNtYUNsaWVudCIsImNvbnZlcnRUb1BsYWluT2JqZWN0IiwiTEFURVNUX1BST0RVQ1RTX0xJTUlUIiwiZ2V0TGF0ZXN0UHJvZHVjdHMiLCJwcmlzbWEiLCJkYXRhIiwicHJvZHVjdCIsImZpbmRNYW55IiwidGFrZSIsIm9yZGVyQnkiLCJjcmVhdGVkQXQiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./lib/actions/product.actions.ts\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getLatestProducts: () => (/* binding */ getLatestProducts),\n/* harmony export */   getProductBySlug: () => (/* binding */ getProductBySlug)\n/* harmony export */ });\n/* harmony import */ var private_next_rsc_server_reference__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! private-next-rsc-server-reference */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/server-reference.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! private-next-rsc-action-encryption */ \"(rsc)/./node_modules/next/dist/server/app-render/encryption.js\");\n/* harmony import */ var private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(private_next_rsc_action_encryption__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _db_prisma__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/db/prisma */ \"(rsc)/./db/prisma.ts\");\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils */ \"(rsc)/./lib/utils.ts\");\n/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../constants */ \"(rsc)/./lib/constants/index.ts\");\n/* harmony import */ var private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! private-next-rsc-action-validate */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-validate.js\");\n/* __next_internal_action_entry_do_not_use__ {\"00fdb00f233eb88423aeb38e7c1fc90dc627b02a8e\":\"getLatestProducts\",\"40d6663bac2ceea4b1c8ccebf66dcb6a99ff118661\":\"getProductBySlug\"} */ \n\n// import { PrismaClient } from \"@prisma/client\";\n\n\n\n// Get latest products\nasync function /*#__TURBOPACK_DISABLE_EXPORT_MERGING__*/ getLatestProducts() {\n    // const prisma = new PrismaClient();\n    const data = await _db_prisma__WEBPACK_IMPORTED_MODULE_2__.prisma.product.findMany({\n        take: _constants__WEBPACK_IMPORTED_MODULE_4__.LATEST_PRODUCTS_LIMIT,\n        orderBy: {\n            createdAt: 'desc'\n        }\n    });\n    return (0,_utils__WEBPACK_IMPORTED_MODULE_3__.convertToPlainObject)(data);\n}\n//Get single product by slug\nasync function /*#__TURBOPACK_DISABLE_EXPORT_MERGING__*/ getProductBySlug(slug) {\n    return await _db_prisma__WEBPACK_IMPORTED_MODULE_2__.prisma.product.findFirst({\n        where: {\n            slug: slug\n        }\n    });\n}\n\n(0,private_next_rsc_action_validate__WEBPACK_IMPORTED_MODULE_5__.ensureServerEntryExports)([\n    getLatestProducts,\n    getProductBySlug\n]);\n(0,private_next_rsc_server_reference__WEBPACK_IMPORTED_MODULE_0__.registerServerReference)(getLatestProducts, \"00fdb00f233eb88423aeb38e7c1fc90dc627b02a8e\", null);\n(0,private_next_rsc_server_reference__WEBPACK_IMPORTED_MODULE_0__.registerServerReference)(getProductBySlug, \"40d6663bac2ceea4b1c8ccebf66dcb6a99ff118661\", null);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9saWIvYWN0aW9ucy9wcm9kdWN0LmFjdGlvbnMudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFDQSxpREFBaUQ7QUFDYjtBQUNZO0FBQ0s7QUFFckQsc0JBQXNCO0FBQ2YsZUFBZUcsdUNBQWUsR0FBZkE7SUFDbEIscUNBQXFDO0lBRXJDLE1BQU1DLE9BQU8sTUFBTUosOENBQU1BLENBQUNLLE9BQU8sQ0FBQ0MsUUFBUSxDQUFDO1FBRXZDQyxNQUFNTCw2REFBcUJBO1FBQzNCTSxTQUFTO1lBQUVDLFdBQVc7UUFBTTtJQUNoQztJQUVBLE9BQU9SLDREQUFvQkEsQ0FBQ0c7QUFDaEM7QUFFQSw0QkFBNEI7QUFDckIsZUFBZU0sdUNBQWMsR0FBZEEsaUJBQWlCQyxJQUFZO0lBQy9DLE9BQU8sTUFBTVgsOENBQU1BLENBQUNLLE9BQU8sQ0FBQ08sU0FBUyxDQUFDO1FBQ2xDQyxPQUFRO1lBQUVGLE1BQU1BO1FBQUs7SUFDekI7QUFDSjs7O0lBakJzQlI7SUFhQU87O0FBYkFQLDBGQUFBQSxDQUFBQTtBQWFBTywwRkFBQUEsQ0FBQUEiLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcY29sZXBcXERlc2t0b3BcXGdpdFxcTmV4dGpzLUVjb21tZXJjZVxcbGliXFxhY3Rpb25zXFxwcm9kdWN0LmFjdGlvbnMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzZXJ2ZXInO1xyXG4vLyBpbXBvcnQgeyBQcmlzbWFDbGllbnQgfSBmcm9tIFwiQHByaXNtYS9jbGllbnRcIjtcclxuaW1wb3J0IHsgcHJpc21hIH0gZnJvbSAnQC9kYi9wcmlzbWEnXHJcbmltcG9ydCB7IGNvbnZlcnRUb1BsYWluT2JqZWN0IH0gZnJvbSBcIi4uL3V0aWxzXCI7XHJcbmltcG9ydCB7IExBVEVTVF9QUk9EVUNUU19MSU1JVCB9IGZyb20gXCIuLi9jb25zdGFudHNcIjtcclxuXHJcbi8vIEdldCBsYXRlc3QgcHJvZHVjdHNcclxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldExhdGVzdFByb2R1Y3RzKCkge1xyXG4gICAgLy8gY29uc3QgcHJpc21hID0gbmV3IFByaXNtYUNsaWVudCgpO1xyXG5cclxuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBwcmlzbWEucHJvZHVjdC5maW5kTWFueSh7XHJcblxyXG4gICAgICAgIHRha2U6IExBVEVTVF9QUk9EVUNUU19MSU1JVCxcclxuICAgICAgICBvcmRlckJ5OiB7IGNyZWF0ZWRBdDogJ2Rlc2MnfVxyXG4gICAgfSk7XHJcblxyXG4gICAgcmV0dXJuIGNvbnZlcnRUb1BsYWluT2JqZWN0KGRhdGEpO1xyXG59XHJcblxyXG4vL0dldCBzaW5nbGUgcHJvZHVjdCBieSBzbHVnXHJcbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRQcm9kdWN0QnlTbHVnKHNsdWc6IHN0cmluZyl7XHJcbiAgICByZXR1cm4gYXdhaXQgcHJpc21hLnByb2R1Y3QuZmluZEZpcnN0KHtcclxuICAgICAgICB3aGVyZSA6IHsgc2x1Zzogc2x1ZyB9LFxyXG4gICAgfSk7XHJcbn0iXSwibmFtZXMiOlsicHJpc21hIiwiY29udmVydFRvUGxhaW5PYmplY3QiLCJMQVRFU1RfUFJPRFVDVFNfTElNSVQiLCJnZXRMYXRlc3RQcm9kdWN0cyIsImRhdGEiLCJwcm9kdWN0IiwiZmluZE1hbnkiLCJ0YWtlIiwib3JkZXJCeSIsImNyZWF0ZWRBdCIsImdldFByb2R1Y3RCeVNsdWciLCJzbHVnIiwiZmluZEZpcnN0Iiwid2hlcmUiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./lib/actions/product.actions.ts\n");
 
 /***/ }),
 
@@ -637,7 +779,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/tailwind-merge","vendor-chunks/@radix-ui","vendor-chunks/next-themes","vendor-chunks/class-variance-authority","vendor-chunks/clsx","vendor-chunks/lucide-react","vendor-chunks/react-remove-scroll","vendor-chunks/@floating-ui","vendor-chunks/react-style-singleton","vendor-chunks/react-remove-scroll-bar","vendor-chunks/use-callback-ref","vendor-chunks/use-sidecar","vendor-chunks/tslib","vendor-chunks/get-nonce","vendor-chunks/aria-hidden"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F(root)%2Fpage&page=%2F(root)%2Fpage&appPaths=%2F(root)%2Fpage&pagePath=private-next-app-dir%2F(root)%2Fpage.tsx&appDir=C%3A%5CUsers%5Ccolep%5CDesktop%5Cgit%5CNextjs-Ecommerce%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5Ccolep%5CDesktop%5Cgit%5CNextjs-Ecommerce&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/tailwind-merge","vendor-chunks/@radix-ui","vendor-chunks/next-themes","vendor-chunks/class-variance-authority","vendor-chunks/clsx","vendor-chunks/@neondatabase","vendor-chunks/ws","vendor-chunks/@floating-ui","vendor-chunks/@prisma","vendor-chunks/tslib","vendor-chunks/react-remove-scroll","vendor-chunks/lucide-react","vendor-chunks/aria-hidden","vendor-chunks/node-gyp-build","vendor-chunks/react-remove-scroll-bar","vendor-chunks/use-callback-ref","vendor-chunks/use-sidecar","vendor-chunks/react-style-singleton","vendor-chunks/postgres-array","vendor-chunks/bufferutil","vendor-chunks/get-nonce"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F(root)%2Fpage&page=%2F(root)%2Fpage&appPaths=%2F(root)%2Fpage&pagePath=private-next-app-dir%2F(root)%2Fpage.tsx&appDir=C%3A%5CUsers%5Ccolep%5CDesktop%5Cgit%5CNextjs-Ecommerce%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5Ccolep%5CDesktop%5Cgit%5CNextjs-Ecommerce&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

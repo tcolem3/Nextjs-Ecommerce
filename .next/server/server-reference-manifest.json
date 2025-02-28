@@ -1,17 +1,38 @@
 {
   "node": {
-    "00b5593d03cd4ee7270d8a366adf685013a5f6d2e2": {
+    "00fdb00f233eb88423aeb38e7c1fc90dc627b02a8e": {
       "workers": {
         "app/(root)/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200b5593d03cd4ee7270d8a366adf685013a5f6d2e2%22%2C%22getLatestProducts%22%5D%5D%5D%5D&__client_imported__=!",
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200fdb00f233eb88423aeb38e7c1fc90dc627b02a8e%22%2C%22getLatestProducts%22%5D%2C%5B%2240d6663bac2ceea4b1c8ccebf66dcb6a99ff118661%22%2C%22getProductBySlug%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(root)/product/[slug]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200fdb00f233eb88423aeb38e7c1fc90dc627b02a8e%22%2C%22getLatestProducts%22%5D%2C%5B%2240d6663bac2ceea4b1c8ccebf66dcb6a99ff118661%22%2C%22getProductBySlug%22%5D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
       },
       "layer": {
-        "app/(root)/page": "rsc"
+        "app/(root)/page": "rsc",
+        "app/(root)/product/[slug]/page": "rsc"
+      }
+    },
+    "40d6663bac2ceea4b1c8ccebf66dcb6a99ff118661": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200fdb00f233eb88423aeb38e7c1fc90dc627b02a8e%22%2C%22getLatestProducts%22%5D%2C%5B%2240d6663bac2ceea4b1c8ccebf66dcb6a99ff118661%22%2C%22getProductBySlug%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(root)/product/[slug]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Ccolep%5C%5CDesktop%5C%5Cgit%5C%5CNextjs-Ecommerce%5C%5Clib%5C%5Cactions%5C%5Cproduct.actions.ts%22%2C%5B%5B%2200fdb00f233eb88423aeb38e7c1fc90dc627b02a8e%22%2C%22getLatestProducts%22%5D%2C%5B%2240d6663bac2ceea4b1c8ccebf66dcb6a99ff118661%22%2C%22getProductBySlug%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc",
+        "app/(root)/product/[slug]/page": "rsc"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "Z90gS3mittBA3N3OSSJz9/2/uL5rIrDrmUMIAUPm8Sc="
+  "encryptionKey": "PWQw8k88cfDo6jTTUbttBDsyuosZFer7iwALTTTw3Pc="
 }
