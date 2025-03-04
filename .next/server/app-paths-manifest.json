@@ -1,8 +1,11 @@
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/(root)/route1/page": "app/(root)/route1/page.js",
   "/(root)/product/[slug]/page": "app/(root)/product/[slug]/page.js",
   "/(root)/page": "app/(root)/page.js",
-  "/(root)/route2/page": "app/(root)/route2/page.js"
+  "/(root)/route2/page": "app/(root)/route2/page.js",
+  "/(root)/route1/page": "app/(root)/route1/page.js",
+  "/(auth)/sign-in/page": "app/(auth)/sign-in/page.js",
+  "/(auth)/sign-up/page": "app/(auth)/sign-up/page.js"
 }
