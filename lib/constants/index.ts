@@ -15,3 +15,19 @@ export const signUpDefaultValues = {
     confirmPassword: '',
 };
 // export const LATEST_PRODUCTS_LIMIT = Number(process.env.LATEST_PRODUCTS_LIMIT) || 6;
+
+// export const shippingAddressDefaultValues = {
+//     fullName: 'John Doe',
+//     streetAddress: '123 Main st',
+//     city: 'Anytown',
+//     postalCode: '12345',
+//     country: 'USA',
+//   };
+
+export const shippingAddressDefaultValues = {
+    fullName: '',
+    streetAddress: '',
+    city: '',
+    postalCode: '',
+    country: '',
+  };
