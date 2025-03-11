@@ -3,7 +3,7 @@ CREATE TABLE "Order" (
     "id" UUID NOT NULL DEFAULT gen_random_uuid(),
     "userId" UUID NOT NULL,
     "shippingAddress" JSON NOT NULL,
-    "paymentMethond" TEXT NOT NULL,
+    "paymentMethod" TEXT NOT NULL,
     "paymentResult" JSON,
     "itemsPrice" DECIMAL(12,2) NOT NULL,
     "totalPrice" DECIMAL(12,2) NOT NULL,

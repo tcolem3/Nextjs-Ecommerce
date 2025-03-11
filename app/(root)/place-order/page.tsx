@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import Image from "next/image";
 import { formatCurrency } from "@/lib/utils";
+import PlaceOrderForm from "./place-order-form";
 
 export const metadata: Metadata = {
     title: 'Place Order',
@@ -33,9 +34,7 @@ const PlaceOrderPage = async () => {
     return ( 
     <>
         <CheckoutSteps current={3}/>
-        <h1 className="py-4 text-2xl">
-            Place Order
-        </h1>
+        <h1 className='py-4 text-2xl'>Place Order</h1>
         <div className="grid md:grid-cols-3 md:gap-5">
             <div className="md:col-span-2 overflow-x-auto space-y-4">
                 <Card>
@@ -132,9 +131,11 @@ const PlaceOrderPage = async () => {
                             <div>{formatCurrency(cart.shippingPrice)}</div>
                         </div>
                         <div className="flex justify-between">
-                            <div>Total</div>
+                            <p>Total</p>
                             <div>{formatCurrency(cart.totalPrice)}</div>
+                            
                         </div>
+                        <PlaceOrderForm/>
                     </CardContent>
                 </Card>
             </div>
