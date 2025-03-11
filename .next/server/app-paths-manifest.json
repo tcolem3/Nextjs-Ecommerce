@@ -4,13 +4,13 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/(root)/page": "app/(root)/page.js",
   "/(root)/product/[slug]/page": "app/(root)/product/[slug]/page.js",
-  "/(root)/route2/page": "app/(root)/route2/page.js",
   "/(root)/route1/page": "app/(root)/route1/page.js",
-  "/(auth)/sign-up/page": "app/(auth)/sign-up/page.js",
+  "/(root)/route2/page": "app/(root)/route2/page.js",
+  "/(root)/cart/page": "app/(root)/cart/page.js",
   "/(auth)/sign-in/page": "app/(auth)/sign-in/page.js",
   "/(root)/order/[id]/page": "app/(root)/order/[id]/page.js",
+  "/(auth)/sign-up/page": "app/(auth)/sign-up/page.js",
   "/(root)/payment-method/page": "app/(root)/payment-method/page.js",
-  "/(root)/cart/page": "app/(root)/cart/page.js",
   "/(root)/place-order/page": "app/(root)/place-order/page.js",
   "/(root)/shipping-address/page": "app/(root)/shipping-address/page.js"
 }
