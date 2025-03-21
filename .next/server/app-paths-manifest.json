@@ -1,6 +1,8 @@
 {
+  "/api/uploadthing/route": "app/api/uploadthing/route.js",
   "/(root)/page": "app/(root)/page.js",
   "/admin/overview/page": "app/admin/overview/page.js",
+  "/admin/products/page": "app/admin/products/page.js",
   "/admin/products/[id]/page": "app/admin/products/[id]/page.js",
-  "/admin/products/page": "app/admin/products/page.js"
+  "/admin/orders/page": "app/admin/orders/page.js"
 }

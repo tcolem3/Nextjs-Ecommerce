@@ -29,7 +29,7 @@ export async function getProductBySlug(slug: string){
 
 //Get single product by its ID
 export async function getProductById(productId: string){
-    const data = prisma.product.findFirst({
+    const data = await prisma.product.findFirst({
         where : { id: productId },
     });
 
