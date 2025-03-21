@@ -1,8 +1,6 @@
 {
-  "/unauthorized/page": "app/unauthorized/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/(root)/cart/page": "app/(root)/cart/page.js",
-  "/(root)/payment-method/page": "app/(root)/payment-method/page.js",
-  "/(root)/order/[id]/page": "app/(root)/order/[id]/page.js",
-  "/(root)/place-order/page": "app/(root)/place-order/page.js"
+  "/(root)/page": "app/(root)/page.js",
+  "/admin/overview/page": "app/admin/overview/page.js",
+  "/admin/products/[id]/page": "app/admin/products/[id]/page.js",
+  "/admin/products/page": "app/admin/products/page.js"
 }

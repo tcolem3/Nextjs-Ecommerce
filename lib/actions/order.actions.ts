@@ -141,7 +141,7 @@ export async function createPayPalOrder(orderId: string){
             throw new Error('Order not found')
         }
     } catch (error) {
-        return {succes: false, message: formatError(error)};
+        return {success: false, message: formatError(error)};
     }
 }
 
@@ -159,7 +159,7 @@ export async function approvePayPalOrder(orderId: string, data: {orderID: string
         const captureData = await paypal.capturePayment(data.orderID);
 
         if (!captureData || captureData.id !== (order.paymentResult as PaymentResult)?.id || captureData.status !== 'COMPLETED'){
-            throw new Error ('Eror in PayPal payment');
+            throw new Error ('Error in PayPal payment');
 
         }
         
@@ -348,7 +348,7 @@ export async function deleteOrder(id: string){
 
         return{
             success: true,
-            message: 'Order deleted succesfully'
+            message: 'Order deleted successfully'
         }
         
     } catch (error) {

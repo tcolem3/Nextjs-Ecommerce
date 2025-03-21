@@ -1,4 +1,4 @@
-// File: C:\Users\colep\Desktop\git\Nextjs-Ecommerce\app\admin\overview\page.tsx
+// File: C:\Users\colep\Desktop\git\new\Nextjs-Ecommerce\app\admin\overview\page.tsx
 import * as entry from '../../../../../app/admin/overview/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
